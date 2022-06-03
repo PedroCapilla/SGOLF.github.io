@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>SGolf</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../libs/jquery.js"></script>    
+    <script type="module" src="MyScene.js"></script>    
+    
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden; 
+        }
+    </style>
+</head>
+<body>
+
+<!-- Div which will show statistical information -->
+<div id="Stats-output">
+</div>
+
+<!-- Div which will hold the Output -->
+<div id="WebGL-output">
+</div>
+
+<!-- <video id="video" playsinline webkit-playsinline muted loop autoplay width="240" height="320" src="../imgs/agua.mp4" style="display: none;"></video> -->
+
+<audio id="audioGolpeBola" style="display: none;" controls>
+    <source type="audio/mp3" src="../sounds/sonidoGolpe.mp3">
+</audio>
+<audio id="audioAgua" style="display: none;" controls>
+    <source type="audio/mp3" src="../sounds/awita.mp3">
+</audio>
+<audio id="audioChoqueArbol" style="display: none;" controls>
+    <source type="audio/wav" src="../sounds/choque.wav">
+</audio>
+<audio id="audioTrophy" style="display: none;" controls>
+    <source type="audio/wav" src="../sounds/trofeo.wav">
+</audio>
+<audio id="audioFinal" style="display: none;" controls>
+    <source type="audio/wav" src="../sounds/final.wav">
+</audio>
+<audio id="audioHoyo" style="display: none;" controls>
+    <source type="audio/mp3" src="../sounds/hoyo.mp3">
+</audio>
+
+</body>
+</html>
